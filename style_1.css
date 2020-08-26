@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color:white;
+  }
+
+  body > header { 
+      background-color: rgb(101, 250, 82);
+      padding: 10px;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+  body > header > h1 {
+      padding: 10px;
+      color: white;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  body > main > article {
+    font-family:"Neue Haas Grotesk";
+    font-variant-caps: all-small-caps;
+    padding: 10px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: 14pt;
+    color:  rgb(101, 250, 82);
+    margin-bottom: 0rem ;
+    text-align: justify;
+  }
+  body > main > article > hgroup {
+    text-align: center;
+  }
+
+  body > header > img {
+    width: 30%;
+    height: 30%;
+  }
+
+  body > header > nav { 
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  body > header > nav > ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+  }
+
+  body > header > nav > ul > li > a {
+      color:white;
+      margin-right: 20px;
+  }
+
+  body > main {
+      margin: auto;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  body > main > article > footer {
+      display:flex;
+      margin: 20px 0;
+      flex-direction: row;
+  }
+
+  body > main > article > footer > img {
+    align-self: flex-start;
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+.image {
+    /* width:50%;
+    height:50%; */
+    background-color: rgb(175, 252, 159);
+    border: 1px solid white;
+    flex:33% 
+}
+img { 
+    max-width: 100%;
+}
+body > section > div > img >  {
+    width: 20%;
+    height: 20%;
+}
+
+#gallery { 
+    /* flex-direction: row-reverse; */
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.first {
+    order: -1;
+}
+
+.last {
+    order: 12;
+}
+  
+    body > footer {
+      background-color: rgb(101, 250, 82);
+      color: white;
+      padding:32px;
+      flex-direction: row;
+  }
+
+  #footer-container {
+      display: flex;
+      flex-direction: row;
+  }
+
+  #footer-container > section > nav > ul {
+      list-style: none;
+      margin: 0;
+      flex-direction: row;
+  }
+
+  #footer-container > section > nav > ul > li > {
+      color: white;
+      flex-direction: row;
+  }
+
+
